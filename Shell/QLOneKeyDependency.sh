@@ -31,47 +31,47 @@ sleep 3
 echo
 echo
 npm config set registry https://registry.npm.taobao.org
-cd /ql
+cd /QL
 npm install -g npm
-cd /ql
+cd /QL
 npm install -g png-js
-cd /ql
+cd /QL
 npm install -g date-fns
-cd /ql
+cd /QL
 npm install -g axios
-cd /ql
+cd /QL
 npm install -g crypto-js
-cd /ql
+cd /QL
 npm install -g ts-md5
-cd /ql
+cd /QL
 npm install -g tslib
-cd /ql
+cd /QL
 npm install -g @types/node
-cd /ql
+cd /QL
 npm install -g requests
-cd /ql
+cd /QL
 npm install -g tough-cookie
-cd /ql
+cd /QL
 npm install -g jsdom
-cd /ql
+cd /QL
 npm install -g download
-cd /ql
+cd /QL
 npm install -g tunnel
-cd /ql
+cd /QL
 npm install -g fs
-cd /ql
+cd /QL
 npm install -g ws
-cd /ql
+cd /QL
 npm install -g form-data
-cd /ql
+cd /QL
 pip3 install requests
-cd /ql
-cd /ql/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
-cd /ql
+cd /QL
+cd /QL/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
+cd /QL
 apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd scripts && npm install canvas --build-from-source
-cd /ql
+cd /QL
 apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
-cd /ql
+cd /QL
 echo
 TIME g "依赖安装完毕..."
 echo
