@@ -2,7 +2,7 @@
 #
 
 # 青龙一键安装脚本
-# GitHub仓库： https://github.com/FlechazoPh/QLDependency
+# GitHub仓库： https://github.com/FlechazoPh/root/QLDependency
 TIME() {
 [[ -z "$1" ]] && {
 	echo -ne " "
@@ -31,47 +31,47 @@ sleep 3
 echo
 echo
 npm config set registry https://registry.npm.taobao.org
-cd /QL
+cd /root/QL
 npm install -g npm
-cd /QL
+cd /root/QL
 npm install -g png-js
-cd /QL
+cd /root/QL
 npm install -g date-fns
-cd /QL
+cd /root/QL
 npm install -g axios
-cd /QL
+cd /root/QL
 npm install -g crypto-js
-cd /QL
+cd /root/QL
 npm install -g ts-md5
-cd /QL
+cd /root/QL
 npm install -g tslib
-cd /QL
+cd /root/QL
 npm install -g @types/node
-cd /QL
+cd /root/QL
 npm install -g requests
-cd /QL
+cd /root/QL
 npm install -g tough-cookie
-cd /QL
+cd /root/QL
 npm install -g jsdom
-cd /QL
+cd /root/QL
 npm install -g download
-cd /QL
+cd /root/QL
 npm install -g tunnel
-cd /QL
+cd /root/QL
 npm install -g fs
-cd /QL
+cd /root/QL
 npm install -g ws
-cd /QL
+cd /root/QL
 npm install -g form-data
-cd /QL
+cd /root/QL
 pip3 install requests
-cd /QL
-cd /QL/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
-cd /QL
+cd /root/QL
+cd /root/QL/scripts/ && apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && npm i && npm i -S ts-node typescript @types/node date-fns axios png-js canvas --build-from-source
+cd /root/QL
 apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd scripts && npm install canvas --build-from-source
-cd /QL
+cd /root/QL
 apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
-cd /QL
+cd /root/QL
 echo
 TIME g "依赖安装完毕..."
 echo
